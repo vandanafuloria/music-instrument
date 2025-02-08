@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(253, 253, 253);
+}
+.main-page{
+    margin:  auto;
+   
+}
+.top-image{
+    margin: auto;
+}
+.top-image img{
+    width: 100vw;
+}
+
+.main-page>div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+.main-page div div{
+   
+   
+}
+.main-page div div img{
+    width: 100px;
+    border-radius: 50%;
+    transition: ease 0.5s;
+}
+.tone-container h3{
+    text-align: center;
+    width: 10%;
+    margin: auto;
+    border:2px purple dotted;
+    padding:2px 5px;
+    margin-bottom: 6px;
+    background-color: plum;
+    border-radius: 50%;
+}
+.tone-container{
+   
+}
